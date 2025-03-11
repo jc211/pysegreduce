@@ -1,12 +1,11 @@
 [build-system]
-requires = ["scikit-build-core"]
+requires = ["scikit-build-core", "pybind11"]
 build-backend = "scikit_build_core.build"
 
 [project]
 name = "pysegreduce"
 version = "0.1.0"
 description = "A CUDA-accelerated segmented reduction library for Python"
-readme = "README.md"
 requires-python = ">=3.8, <3.13"
 license = {text = "MIT"}
 dependencies = [
